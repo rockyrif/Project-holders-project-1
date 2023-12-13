@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(background_img.jpg);
+    background-size:cover;
+}
+
+/************heading**************/
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:100px;
+    align-items:center;
+}
+.right{
+    border: 1px solid forestgreen;
+    width: 440px;
+    height: 440px;
+    background-image: url('scholarship.jpg');
+    background-size:cover;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.right::before{
+    width: 430px;
+    height: 430px;
+    border:2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 430px;
+    padding:10px;
+}
+
+/**********left************/
+.left p:nth-child(1){
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.left h1{
+    font-size: 90px;
+    color:white;
+}
+.left p:nth-child(3){
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+}
+.left button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border:2px solid white;
+    background-color:transparent;
+    color:white;
+    margin:20px 0px;
+}
+
