@@ -142,7 +142,7 @@ a {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        top: 10%;
+        top: 5%;
        
     } 
     .left{
@@ -160,13 +160,30 @@ a {
         min-width: 40px;
     }
     .right{
-        
-        top: 20%;
-
-        
+        height: 240px;
+        width: 240px;
+        top: 20%;    
+    }
+    .right::before{
+        height: 230px;
+        width: 230px;
     }
     .left{
         min-width: fit-content;
     }
+}
+
+@media only screen and (max-width: 288px) {
+    .right{
+        
+        top: 10%;    
+    }
+    .left h1{
+        font-size: 3    0px;
+    
+    }
+}
+@media only screen and (max-height: 671px) {
+
 }
 
